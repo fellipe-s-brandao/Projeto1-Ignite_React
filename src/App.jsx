@@ -15,7 +15,7 @@ const posts = [
         },
         content: [
             { type: 'paragraph', content:'Fala galeraa 👋' },
-            { type: 'paragraph', content:'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+            { type: 'paragraph', content:'Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
             { type: 'link', content:'jane.design/doctorcare' }
         ],
         publishAt: new Date('2023-03-29 14:00:00')
@@ -34,20 +34,6 @@ const posts = [
         ],
         publishAt: new Date('2023-03-28 14:00:00')
     },
-    {
-        id: 3,
-        author: {
-            avatarUrl: "https://github.com/maykebrito.png",
-            name: "Mayke Brito",
-            role: "Educador"
-        },
-        content: [
-            { type: 'paragraph', content:'Fala galeraa 👋' },
-            { type: 'paragraph', content:'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-            { type: 'link', content:'jane.design/doctorcare' }
-        ],
-        publishAt: new Date('2023-03-27 14:00:00')
-    }
 ]
 
 function App() {
